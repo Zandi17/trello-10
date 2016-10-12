@@ -31,11 +31,11 @@ window.addEventListener("load", function() {
 		divTitulo.appendChild(titulo);
 		contenedor.appendChild(enlace);
 
-		// var inicio = document.createElement("div");
-		// boxPadre.appendChild(inicio);
-		// inicio.classList.add("lado");
-		// inicio.appendChild(lista);
-		// lista.classList.remove("ocultar");
+		var inicio = document.createElement("div");
+		boxPadre.appendChild(inicio);
+		inicio.classList.add("lado");
+		inicio.appendChild(lista);
+		lista.classList.remove("ocultar");
 
 		// enlace.addEventListener("click",function(e){
 		// 	e.preventDefault();
