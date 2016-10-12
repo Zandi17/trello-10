@@ -1,0 +1,41 @@
+body{
+  background: url(../img/indie2.jpg);
+  background-size: 100%;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+span{
+	display: inline-block;
+	border-radius: 	5px;
+	height: 40px;
+	width: 	190px;
+	color: 	white;
+	background: #778899;
+	padding: 10px;
+}
+span:hover{
+	background-color : #B0C4DE ;
+}
+.ocultar{
+	display: none;
+}
+.aparece {
+	display: block;
+	float: left;
+}
+.fondo{
+	background: #778899;
+	width: 190px;
+	border-radius: 5px;
+}
+
+#contenedor {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.lado {
+	display:inline-block;
+}
